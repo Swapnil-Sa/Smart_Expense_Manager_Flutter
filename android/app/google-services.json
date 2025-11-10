@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1051619785533",
+    "project_id": "smart-expense-6dd91",
+    "storage_bucket": "smart-expense-6dd91.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051619785533:android:24f41b5bfacf5d50652354",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051619785533-99ahphr8dm4lsnlrn33ddckamcp9mtpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATOBcXOT5ckfG4pPehK8Gy6vH_zbR0nAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051619785533-99ahphr8dm4lsnlrn33ddckamcp9mtpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
