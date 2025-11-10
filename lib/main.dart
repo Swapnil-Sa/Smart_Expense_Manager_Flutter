@@ -10,9 +10,15 @@ import 'package:flutter_application/screens/login_screen.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'data/model/add_date.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:firebase_core/firebase_core.dart'; // Import Firebase Core
+import 'firebase_options.dart'; 
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+    // 1. Initialize Firebase
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   await Hive.initFlutter();
   Hive.registerAdapter(AdddataAdapter());
   await Hive.openBox('userBox');
