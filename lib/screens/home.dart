@@ -53,13 +53,13 @@ class _HomeState extends State<Home> with WidgetsBindingObserver {
   void initState() {
     super.initState();
     userBox = Hive.box('userBox');
-    // ⚠️ FIX: Add observer to track when the screen is active
+    //  FIX: Add observer to track when the screen is active
     WidgetsBinding.instance.addObserver(this);
   }
 
   @override
   void dispose() {
-    // ⚠️ FIX: Remove observer when the widget is disposed
+    //  FIX: Remove observer when the widget is disposed
     WidgetsBinding.instance.removeObserver(this);
     super.dispose();
   }
