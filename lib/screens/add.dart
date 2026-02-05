@@ -364,9 +364,11 @@ class _Add_ScreenState extends State<Add_Screen> {
                 );
               },
             );
-            setState(() {
-              date = newDate;
-            });
+            if (newDate != null) {
+              setState(() {
+                date = newDate;
+              });
+            }
           },
           child: Text(
             'Date: ${date.day}/${date.month}/${date.year}',
