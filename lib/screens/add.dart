@@ -364,7 +364,6 @@ class _Add_ScreenState extends State<Add_Screen> {
                 );
               },
             );
-            if (newDate == null) return;
             setState(() {
               date = newDate;
             });
