@@ -83,6 +83,10 @@ It offers a clean, responsive interface with both **Light and Dark modes**, intu
 
 ---
 
+**Note:** AI features require a Google Gemini API key. 
+   Get one free at [Google AI Studio](https://makersuite.google.com/app/apikey)
+  
+
 ## 🧰 Installation & Setup
 
 To run this project locally:
